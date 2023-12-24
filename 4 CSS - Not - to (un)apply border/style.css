@@ -1,0 +1,56 @@
+body{
+    font-family:"Oswald", sans-serif;
+    line-height: 1.25;
+    margin: 0;
+}
+
+nav{
+    background-color: #da5399;
+    padding: 2em;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .25em 1em;
+    text-transform: uppercase;
+}
+
+nav li:not(:last-child){ 
+    border-right: 1px solid #000000;
+}
+
+nav a{
+    border-bottom: 3px solid #000000;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+nav a{
+    border-bottom: 3px solid #000000;
+}
+
+/* 
+
+instead of putting on the border...
+
+* add board *
+
+.nav li {
+    border-right: 1px solid #666;
+  }
+  ...and then taking it off the last element...
+  
+  * remove board *
+  
+  .nav li:last-child {
+    border-right: none;
+  }
+  ...use the *:not()* pseudo-class to only apply to the elements you want:
+
+*/

@@ -1,0 +1,18 @@
+/* 
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    padding: 0;
+}
+*/
+
+button {
+    all: unset;
+}
+
+/* *all* to specify all elementes.
+Setting the value to *unset* changes an 
+element's properties to their initial values: */

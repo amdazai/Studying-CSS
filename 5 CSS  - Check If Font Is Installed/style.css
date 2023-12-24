@@ -1,0 +1,22 @@
+@use postcss-preset-env{
+    stage:0;
+}
+
+@font-face{
+    font-family: Dank Mono;
+    src:local(Dank Mono),local(Dank-Mono),url(//...a.server/fonts/DankMono.woff);
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Dank Mono;
+}
+
+P{
+    max-width: 45ch;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: lighter;
+}
